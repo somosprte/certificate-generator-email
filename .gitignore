@@ -1,0 +1,23 @@
+# Node modules
+node_modules
+
+# Adonis directory for storing tmp files
+tmp/*
+!tmp/.gitkeep
+
+# Environment variables, never commit this file
+.env
+
+# The development sqlite file
+database/*.sqlite
+
+#csv files avoid data leak
+*.csv
+!example.csv
+
+#jpg files avoid wrong share
+*.jpg
+!example.jpg
+
+#macosfix
+.DS_Store
